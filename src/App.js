@@ -6,6 +6,10 @@ import { Button } from 'react-bootstrap'
 import { Nav, Navbar, NavDropdown, Form, FormControl, Container } from 'react-bootstrap'
 import { ListGroup, ListGroupItem } from 'react-bootstrap'
 
+//Include Bootstrap CSS
+import './css/bootstrap.css';
+import './css/bootstrap.min.css';
+
 import Portis from '@portis/web3';
 import Web3 from 'web3';
 
