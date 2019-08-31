@@ -2,6 +2,8 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+import {PORTIS_ADDRESS} from "./constants.js"
+
 import { Button } from 'react-bootstrap'
 import { Nav, Navbar, NavDropdown, Form, FormControl, Container } from 'react-bootstrap'
 import { ListGroup, ListGroupItem } from 'react-bootstrap'
@@ -13,7 +15,9 @@ import './css/bootstrap.min.css';
 import Portis from '@portis/web3';
 import Web3 from 'web3';
 
-const portis = new Portis('5df91c2d-4e4b-4c86-a1bc-4a85b4f6ae33', 'mainnet');
+const PORTIS_ADDRESS = "5df91c2d-4e4b-4c86-a1bc-4a85b4f6ae33";
+
+const portis = new Portis(PORTIS_ADDRESS, 'mainnet');
 const web3 = new Web3(portis.provider);
 
 /*portisAccount = () => {
