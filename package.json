@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@openzeppelin/contracts": "^2.3.0",
+    "@openzeppelin/contracts": "^4.4.2",
     "@portis/web3": "^2.0.0-beta.40",
     "bootstrap": "^4.3.1",
     "react": "^16.9.0",
